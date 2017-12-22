@@ -10,7 +10,7 @@ int main()
     window.clear(sf::Color(255, 255, 255));
 
     sf::Texture texture;
-    texture.loadFromFile("cat.png");
+    texture.loadFromFile("images/cat.png");
 
     sf::Sprite sprite;
     sprite.setTexture(texture);
